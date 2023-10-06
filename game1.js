@@ -181,6 +181,7 @@ window.addEventListener("click", (e) => {
 
 window.addEventListener("click",(e)=>{
     Time()
+    document.querySelector("h1").style.display="none"
 },{once:true})
 
 
